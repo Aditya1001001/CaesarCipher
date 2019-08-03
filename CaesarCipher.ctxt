@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=CaesarCipher
+comment0.text=\r\n\ Encrypts\ input\ using\ the\ Caesar\ Cipher\ algorithm,\ which\ works\ with\ all\ letters\ (both\ uppercase\r\n\ and\ lowercase),\ and\ encrypts\ using\ one\ or\ two\ keys.\ \r\n\ \r\n\ @author\ Aditya\ Singh\r\n\ @version\ 16\ July\ 2019\r\n
+comment1.params=input\ key
+comment1.target=java.lang.String\ encrypt(java.lang.String,\ int)
+comment1.text=\r\n\ Encrypts\ input\ using\ the\ Caesar\ Cipher\ algorithm,\ \r\n\ handling\ both\ uppercase\ and\ lowercase\ letters.\r\n\ @param\ input\ is\ the\ String\ to\ be\ encrypted\r\n\ @param\ key\ is\ an\ int\ representing\ the\ number\ of\ positions\ the\ shift\ is\r\n\ @returns\ encrypted\ String\ input\r\n
+comment2.params=
+comment2.target=void\ testEncrypt()
+comment3.params=
+comment3.target=void\ testCaesar()
+comment3.text=\r\n\ Reads\ a\ file\ and\ encrypts\ the\ complete\ file\ using\ the\ Caesar\ Cipher\ algorithm,\ \r\n\ printing\ the\ encrypted\ message.\r\n
+comment4.params=input\ key1\ key2
+comment4.target=java.lang.String\ encryptTwoKeys(java.lang.String,\ int,\ int)
+comment4.text=\r\n\ Encrypts\ input\ using\ the\ Caesar\ algorithm\ with\ two\ keys\ instead\ of\ one.\r\n\ @parameter\ key1\ is\ an\ int\ representing\ the\ alphabet\ shift\ used\ to\ encrypt\ every\ other\ character,\ \r\n\ starting\ with\ the\ first\ character\r\n\ @parameter\ key2\ is\ an\ int\ representing\ the\ alphabet\ shift\ used\ to\ encrypt\ every\ other\ character,\ \r\n\ starting\ with\ the\ second\ character\r\n\ @returns\ encrypted\ String\ input\r\n
+comment5.params=
+comment5.target=void\ testEncryptTwoKeys()
+numComments=6
